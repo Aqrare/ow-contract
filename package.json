@@ -9,7 +9,9 @@
   "author": "Takumi Hosokawa <takumitakumi0310@gmail.com> (https://github.com/Aqrare)",
   "license": "ISC",
   "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
     "hardhat": "^2.22.9"
   },
   "devDependencies": {
