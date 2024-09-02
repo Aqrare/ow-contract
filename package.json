@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/$npm_config_contract --network $npm_config_network"
   },
   "author": "Takumi Hosokawa <takumitakumi0310@gmail.com> (https://github.com/Aqrare)",
   "license": "ISC",
