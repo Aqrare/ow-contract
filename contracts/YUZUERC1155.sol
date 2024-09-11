@@ -13,7 +13,7 @@ contract YUZUERC1155 is ERC1155, Ownable {
         address initialOwner
     )
         ERC1155(
-            "https://pbs.twimg.com/profile_images/1517210325707370496/vqYXWuI1_400x400.jpg"
+            "https://raw.githubusercontent.com/Aqrare/ow-contract/main/metadata/"
         )
         Ownable(initialOwner)
     {}
@@ -28,7 +28,7 @@ contract YUZUERC1155 is ERC1155, Ownable {
         uint256 id,
         uint256 amount,
         bytes memory data
-    ) public onlyOwner {
+    ) public {
         _mint(account, id, amount, data);
     }
 
