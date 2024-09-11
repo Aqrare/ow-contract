@@ -1,0 +1,11 @@
+{
+    "id": 5,
+    "name": "Chiba Fumika",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Publisher" }
+    ],
+    "image": "https://ipfs.io/ipfs/Qmc76T2kRAcz6QZXo8b9sDTmBic2X1ewp92jG7GMNz7Tzk"
+  }

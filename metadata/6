@@ -1,0 +1,11 @@
+{
+    "id": 6,
+    "name": "Momohara Yuki",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Pharmacist" }
+    ],
+    "image": "https://ipfs.io/ipfs/QmRE6tuoWZjMjK96W7qCsCZimHyeaYuNevwsygE7eFCSDQ"
+  }

@@ -1,0 +1,11 @@
+{
+        "id": 16,
+        "name": "Nagumo Chiharu",
+        "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+        "attributes": [
+            {"trait_type": "Type", "value": "Otome"},
+            {"trait_type": "Rarity", "value": "Legend"},
+            {"trait_type": "Job", "value": "Game Engineer"}
+        ],
+        "image": "https://ipfs.io/ipfs/QmNvKPueqrJ2jad5MqdYS1m6AhnMow95LSL7s6NT2rxpFE"
+    }

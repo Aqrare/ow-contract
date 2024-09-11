@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "name": "Mochizuki Hinako",
+  "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Otome"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legend"
+    },
+    {
+      "trait_type": "Job",
+      "value": "Job Hunting Students"
+    }
+  ],
+  "image": "https://ipfs.io/ipfs/QmYk1i85jhU3Vn8aDMhEZue1Cw3ryhy1rYcYB12CPMdLcX"
+}

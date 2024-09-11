@@ -1,0 +1,11 @@
+{
+    "id": 13,
+    "name": "Akagi Sakura",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Dental Hygienist" }
+    ],
+    "image": "https://ipfs.io/ipfs/Qmf6iKKMDtB4sQkXjNcUFkLWKeF3PmQQbmzk6o54RZHgaB"
+  }

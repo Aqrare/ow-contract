@@ -1,0 +1,11 @@
+{
+    "id": 11,
+    "name": "Shimizu Aoi",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Newspaper Reporter" }
+    ],
+    "image": "https://ipfs.io/ipfs/QmY9vB5mBQ1NWDU52UrpNfuu3SMteCTo6bXxpDB3ULCU72"
+  }

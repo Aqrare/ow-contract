@@ -1,0 +1,14 @@
+curl -X POST -H "Content-Type: multipart/form-data" -u "34aea7d12d384e25a5c3cdc483dfb376:454e58ff789245b5a8e2c1df2c3e012c" \
+"https://ipfs.infura.io:5001/api/v0/add?pin=true&recursive=true&wrap-with-directory=true" \
+-F file=@"Character1.png" \
+-F file=@"Character2.png" \
+-F file=@"Character3.png" \
+-F file=@"Character4.png" \
+-F file=@"Character5.png" \
+-F file=@"Character6.png" \
+-F file=@"Character7.png" \
+-F file=@"Character8.png" \
+-F file=@"Character9.png" \
+-F file=@"Character10.png"
+
+curl -X POST -F file=@Character1.png -u "34aea7d12d384e25a5c3cdc483dfb376:454e58ff789245b5a8e2c1df2c3e012c" "https://ipfs.infura.io:5001/api/v0/add"

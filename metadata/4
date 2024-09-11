@@ -1,0 +1,11 @@
+{
+    "id": 4,
+    "name": "Sasaki Honoka",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Consultant" }
+    ],
+    "image": "https://ipfs.io/ipfs/QmYPRsPz4NnmUXi5qTNiad26w8uMKo6pP2SsNF4o6wUfLA"
+  }

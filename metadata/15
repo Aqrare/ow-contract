@@ -1,0 +1,11 @@
+{
+        "id": 15,
+        "name": "Ito Sumire",
+        "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+        "attributes": [
+            {"trait_type": "Type", "value": "Otome"},
+            {"trait_type": "Rarity", "value": "Legend"},
+            {"trait_type": "Job", "value": "Site Supervisor"}
+        ],
+        "image": "https://ipfs.io/ipfs/QmNVDX8irv8PCM9yNodPhGpLbxV4rzqbRBnBNTkkfZoP2p"
+    }

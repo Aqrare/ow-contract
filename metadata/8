@@ -1,0 +1,11 @@
+{
+    "id": 8,
+    "name": "Ichijo Ayaka",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Café Staff" }
+    ],
+    "image": "https://ipfs.io/ipfs/QmPd8jxiRFmxcb8NUjR6dUfvRZNCtBnTkD87RFrDFoj9K2"
+  }

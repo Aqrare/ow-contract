@@ -1,0 +1,11 @@
+{
+    "id": 3,
+    "name": "Samejima Akina",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Advertising Agency" }
+    ],
+    "image": "https://ipfs.io/ipfs/QmbNCX89ZZ4Fj3B6Q3ZCF4vr8QgoXpqHHT5BBxgK4Yo7Rp"
+  }

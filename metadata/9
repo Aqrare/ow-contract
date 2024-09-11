@@ -1,0 +1,11 @@
+{
+    "id": 9,
+    "name": "Ishihara Mai",
+    "description": "NFT items that can be used in the game 'Career Otome Survivor'",
+    "attributes": [
+      { "trait_type": "Type", "value": "Otome" },
+      { "trait_type": "Rarity", "value": "Legend" },
+      { "trait_type": "Job", "value": "Chef" }
+    ],
+    "image": "https://ipfs.io/ipfs/QmZ63P12y68Jp4WUogSWD1gbsLWyKaBboEAQ2mMF6ghYet"
+  }
