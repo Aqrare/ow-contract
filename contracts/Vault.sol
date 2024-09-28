@@ -13,31 +13,25 @@ contract Vault is ERC1155Holder, ReentrancyGuard {
 
     constructor(address _supportedNFTContract) {
         require(_supportedNFTContract != address(0), "Invalid NFT contract address");
+        require(IERC165(_supportedNFTContract).supportsInterface(type(IERC1155).interfaceId), "Invalid ERC1155 contract");
         supportedNFTContract = _supportedNFTContract;
     }
 
-    function deposit(uint256 _tokenId, uint256 _amount) external {
+    function deposit(uint256 _tokenId, uint256 _amount) external nonReentrant {
         require(_amount > 0, "Amount must be greater than 0");
         IERC1155 nftContract = IERC1155(supportedNFTContract);
         require(nftContract.balanceOf(msg.sender, _tokenId) >= _amount, "Insufficient balance");
-        
         nftContract.safeTransferFrom(msg.sender, address(this), _tokenId, _amount, "");
-        
         vaultedNFTs[msg.sender][_tokenId] += _amount;
-        
         emit NFTDeposited(msg.sender, _tokenId, _amount);
     }
 
     function withdraw(uint256 _tokenId, uint256 _amount) external nonReentrant {
         require(_amount > 0, "Amount must be greater than 0");
-        require(vaultedNFTs[msg.sender][_tokenId] >= _amount, "Insufficient balance in vault");
-        
+        require(vaultedNFTs[msg.sender][_tokenId] >= _amount, "Insufficient balance");
         IERC1155 nftContract = IERC1155(supportedNFTContract);
-        
-        vaultedNFTs[msg.sender][_tokenId] -= _amount;
-        
         nftContract.safeTransferFrom(address(this), msg.sender, _tokenId, _amount, "");
-        
+        vaultedNFTs[msg.sender][_tokenId] -= _amount;
         emit NFTWithdrawn(msg.sender, _tokenId, _amount);
     }
 
