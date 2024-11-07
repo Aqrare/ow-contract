@@ -18,11 +18,6 @@ contract YUZUERC1155 is ERC1155, Ownable {
         Ownable(initialOwner)
     {}
 
-    function drawGacha() external {
-        uint256 randomId = _getPseudoRandomNFTId();
-        _mint(msg.sender, randomId, 1, "");
-    }
-
     function mint(
         address account,
         uint256 id,
@@ -43,15 +38,5 @@ contract YUZUERC1155 is ERC1155, Ownable {
 
     function setURI(string memory newuri) public onlyOwner {
         _setURI(newuri);
-    }
-
-    function _getPseudoRandomNFTId() internal view returns (uint256) {
-        uint256 blockHashValue = uint256(blockhash(block.number - 1));
-        uint256 random = uint256(
-            keccak256(
-                abi.encodePacked(block.timestamp, block.prevrandao, msg.sender,blockHashValue)
-            )
-        ) % MAX_NFT_ID;
-        return random;
     }
 }
