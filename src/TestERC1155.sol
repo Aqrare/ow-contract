@@ -29,10 +29,9 @@ contract TestERC1155 is ERC1155, Ownable {
     function mintBatch(
         address to,
         uint256[] memory ids,
-        uint256[] memory amounts,
-        bytes memory data
+        uint256[] memory amounts
     ) public onlyOwner {
-        _mintBatch(to, ids, amounts, data);
+        _mintBatch(to, ids, amounts, "");
     }
 
     function setURI(string memory newuri) public onlyOwner {
