@@ -121,7 +121,7 @@ contract UniqueMonster is ERC721, ERC721Burnable, Ownable, ReentrancyGuard {
 
     function getCurrentChallenger(
         uint256 tokenId
-    ) external view returns (address) {
+    ) public view returns (address) {
         Monster storage monster = _monsters[tokenId];
         if (monster.validUntil < block.timestamp) {
             return address(0);
