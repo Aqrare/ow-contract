@@ -1,23 +1,23 @@
 {
   "transactions": [
     {
-      "hash": "0x9c8743b0d40e114a74219172d2c5647e49abb5ad91a0aa5950d71ffcea65d18b",
+      "hash": "0x89e3a18a79bb3aeab2ff56e4ecfa15ef723100d9a7fb2a491091b87380ce593d",
       "transactionType": "CALL",
       "contractName": null,
-      "contractAddress": "0xba4cd2a4c6b87ba9d245b0c8824c77f263807f68",
+      "contractAddress": "0x1a4d66e4b1cdc802414591f4902e3d8b5cf0fa02",
       "function": "mint(address,uint256,uint256)",
       "arguments": [
         "0x65150B5Fa861481651225Ef4412136DCBf696232",
-        "10101",
+        "10105",
         "1"
       ],
       "transaction": {
         "from": "0x2c0d48dd817deead079a814a67af406bce5b08dc",
-        "to": "0xba4cd2a4c6b87ba9d245b0c8824c77f263807f68",
-        "gas": "0xcafa",
+        "to": "0x1a4d66e4b1cdc802414591f4902e3d8b5cf0fa02",
+        "gas": "0x11bf6",
         "value": "0x0",
-        "input": "0x156e29f600000000000000000000000065150b5fa861481651225ef4412136dcbf69623200000000000000000000000000000000000000000000000000000000000027750000000000000000000000000000000000000000000000000000000000000001",
-        "nonce": "0x22",
+        "input": "0x156e29f600000000000000000000000065150b5fa861481651225ef4412136dcbf69623200000000000000000000000000000000000000000000000000000000000027790000000000000000000000000000000000000000000000000000000000000001",
+        "nonce": "0x27",
         "chainId": "0x1a4"
       },
       "additionalContracts": [],
@@ -27,10 +27,10 @@
   "receipts": [],
   "libraries": [],
   "pending": [
-    "0x9c8743b0d40e114a74219172d2c5647e49abb5ad91a0aa5950d71ffcea65d18b"
+    "0x89e3a18a79bb3aeab2ff56e4ecfa15ef723100d9a7fb2a491091b87380ce593d"
   ],
   "returns": {},
-  "timestamp": 1732814663,
+  "timestamp": 1733385247,
   "chain": 420,
-  "commit": "b5ec843"
+  "commit": "c14f313"
 }

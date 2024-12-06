@@ -17,17 +17,17 @@ contract DeployERC1155 is Script {
 contract MintERC1155 is Script {
     function run() public {
         uint256 privateKey = vm.envUint("PRIVATE_KEY");
-        address recipient = 0x65150B5Fa861481651225Ef4412136DCBf696232;
+        address recipient = 0x90F7D01EB77494027d7923E0675cf5D6dB015bF6;
+        address me = 0x65150B5Fa861481651225Ef4412136DCBf696232;
 
-        address tokenAddress = 0xBA4CD2a4c6B87BA9D245b0c8824c77f263807f68;
+        address tokenAddress = 0x1A4D66E4b1Cdc802414591F4902e3d8B5cF0Fa02;
         TestERC1155 token = TestERC1155(tokenAddress);
 
         vm.startBroadcast(privateKey);
-        uint256 tokenId = 10101;
+        uint256 tokenId = 10105;
         uint256 amount = 1;
 
-        // mint関数を呼び出す
-        token.mint(recipient, tokenId, amount);
+        token.mint(me, tokenId, amount);
 
         vm.stopBroadcast();
     }
