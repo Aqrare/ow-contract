@@ -44,7 +44,6 @@ contract CareerOtomeNFT is ERC1155, AccessControl {
     }
 
     // The following functions are overrides required by Solidity.
-
     function supportsInterface(bytes4 interfaceId)
         public
         view
